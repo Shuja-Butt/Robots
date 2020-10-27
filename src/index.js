@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import {createStore,applyMiddleware,combineReducers} from 'redux';
 import './index.css';
-import * as serviceWorker from '../public/serviceWorker';
+import * as serviceWorker from './serviceWorker';
 import {createLogger} from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
 //import    Card from   './Card';
