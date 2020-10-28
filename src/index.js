@@ -21,12 +21,6 @@ ReactDOM.render(
 	            <Provider store={store} >
               <App  />   
               </Provider>
-           
-	                   { // <Card   name={Data[0].name}   email={Data[0].email}  />
-                     //    <Card  name={Data[1].name}   email={Data[1].email}  />
-                     //    <Card  name={Data[2].name}   email={Data[2].email}  />
-                     //    <Card  name={Data[3].name}   email={Data[3].email}   />
-                 }
 	,document.getElementById('root'));
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
