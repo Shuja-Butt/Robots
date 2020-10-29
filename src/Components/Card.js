@@ -9,7 +9,7 @@ const Card=({id,name, email})=>
 
        <div id="fa">
        <div id='ch'>
-       <img className="card" src={`https://robohash.org/${id}?200x200`} alt="Robots" />
+       <img className="card" src={`https://robohash.org/${id}?size=200x200`} alt="Robots" />
        <p>{name}</p>
        <p>{email}</p>
        </div>
