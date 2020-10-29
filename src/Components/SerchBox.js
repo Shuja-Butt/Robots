@@ -5,7 +5,7 @@ const SerchBox=({result})=>
 	return(
 
             <div >
-            <input  className="search"    type="text" name="serchbox"  onChange={result} placeholder="SERCH ROBOTS"/>
+            <input  aria-label='Search ROBOTS'  className="search"    type="text" name="serchbox"  onChange={result} placeholder="SERCH ROBOTS"/>
             </div>
 
 
